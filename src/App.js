@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './Home';
 import Secondview from './Secondview';
-import {  } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
