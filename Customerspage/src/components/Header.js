@@ -12,9 +12,9 @@ export default function Header() {
                 <div className={styles.brand}>Ravintola X</div>
                 <div style={mainStyle}><button>Etusivu</button></div>
                 <div style={mainStyle}><button>Ravintolat</button></div>
-                <div style={mainStyle}> <button>Haku</button></div>
                 <div style={mainStyle}><button>Ostoskori</button></div>
                 <div style={mainStyle}><button>Kirjaudu sisään</button></div>
+                <input type="text" placeholder="Etsi" name="etsi"/>
             </div>
         </div>
     )
