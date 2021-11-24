@@ -1,5 +1,6 @@
 import React from "react";
-import styles from './Header.module.css';
+import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Header() {
@@ -9,12 +10,12 @@ export default function Header() {
     return (
         <div className={ styles.header }>
             <div className={ styles.container }>
-                <div className={styles.brand}>Ravintola X</div>
-                <div style={mainStyle}><button>Etusivu</button></div>
-                <div style={mainStyle}><button>Ravintolat</button></div>
-                <div style={mainStyle}><button>Ostoskori</button></div>
-                <div style={mainStyle}><button>Kirjaudu sisään</button></div>
-                <input type="text" placeholder="Etsi" name="etsi"/>
+                <div className={styles.brand}>Restaurant X</div>
+                <div style={mainStyle}><button>Home</button></div>
+                <div style={mainStyle}><button>Restaurants</button></div>
+                <div style={mainStyle}><button>Shopping cart</button></div>
+                <div style={mainStyle}><button>Log in</button></div>
+                <div style={mainStyle}><Link to="Search"> <button>Search</button> </Link> </div>
             </div>
         </div>
     )

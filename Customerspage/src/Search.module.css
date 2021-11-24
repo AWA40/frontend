@@ -1,0 +1,27 @@
+.Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+input {
+    font: 16px system-ui;
+    color: rgb(255, 251, 251);
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    background-color:rgb(0, 0, 0);
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  p{
+      margin: 10px;
+      font-size: 18px;
+
+  }

@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home';
 import Secondview from './Secondview';
 import Header from './components/Header';
+import Search from './Search';
 
 
 function App() {
@@ -11,10 +12,12 @@ function App() {
     <BrowserRouter>
     <div>
       <Header />
-    <h1>Hello React Router</h1>
+    <h1>Hello User X</h1>
+    
     <Routes>
       <Route path ="/" element={<Home/>} />
       <Route path = "/secondview" element={<Secondview/>} />
+      <Route path = "/search" element={<Search/>} />
     </Routes>
     </div>
     </BrowserRouter>
