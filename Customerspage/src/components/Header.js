@@ -14,6 +14,7 @@ export default function Header() {
                 <div style={mainStyle}><button>Home</button></div>
                 <div style={mainStyle}><button>Restaurants</button></div>
                 <div style={mainStyle}><button>Shopping cart</button></div>
+                <div style={mainStyle}><Link to="/Admin"><button>Admin</button></Link></div>
                 <div style={mainStyle}><button>Log in</button></div>
                 <div style={mainStyle}><Link to="Search"> <button>Search</button> </Link> </div>
             </div>
