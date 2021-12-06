@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { InputAdornment, TextField } from '@mui/material';
-import { makeStyles } from '@mui/material';
-
+import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
 
 
 export default function Search1(props) {
@@ -13,7 +12,8 @@ export default function Search1(props) {
         props.fetchRestaurants(queryVal.trim())
     }
 
-    const useStyles = makeStyles()
+    const theme = createMuiTheme()
+    const useStyles = makeStyles(theme)
 
     return (
         <form onSubmit={handleSearch} className="search-bar">
@@ -34,7 +34,7 @@ export default function Search1(props) {
             InputProps={{
                 startAdornment: (
                     <InputAdornment position="start">  
-                    <SearchIcon/>
+                    
                     </InputAdornment>
                     ),
                 endAdornment: (

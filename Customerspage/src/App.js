@@ -4,8 +4,9 @@ import './App.css';
 import Home from './Home';
 import Secondview from './Secondview';
 import Header from './components/Header';
-import Search from './Search';
 import Search1 from './Search1';
+import RestaurantList from './RestaurantList'
+import ShoppingCart from './ShoppingCart'
 
 
 
@@ -18,8 +19,9 @@ function App() {
     
     <Routes>
       <Route path ="/" element={<Home/>} />
-      <Route path = "/secondview" element={<Secondview/>} />
       <Route path = "/search" element={<Search1/>} />
+      <Route path = "/restaurants" element={<RestaurantList/>} />
+      <Route path = "/shoppingcart" element={<ShoppingCart/>} />
     </Routes>
     </div>
     </BrowserRouter>

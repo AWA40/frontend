@@ -11,9 +11,9 @@ export default function Header() {
         <div className={ styles.header }>
             <div className={ styles.container }>
                 <div className={styles.brand}>Restaurant X</div>
-                <div style={mainStyle}><button>Home</button></div>
-                <div style={mainStyle}><button>Restaurants</button></div>
-                <div style={mainStyle}><button>Shopping cart</button></div>
+                <div style={mainStyle}><Link to="/"><button>Home</button> </Link> </div>
+                <div style={mainStyle}><Link to="Restaurants"><button>Restaurants</button> </Link> </div>
+                <div style={mainStyle}><Link to="shoppingcart"> <button>Shopping cart</button> </Link> </div>
                 <div style={mainStyle}><button>Log in</button></div>
                 <div style={mainStyle}><Link to="Search"> <button>Search</button> </Link> </div>
             </div>

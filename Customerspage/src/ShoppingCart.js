@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
             <p>
-            Welcome to Restaurant X
+            Here you can view your shopping cart contents.
             </p>
             
         </div>
