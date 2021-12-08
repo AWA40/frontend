@@ -1,4 +1,4 @@
-.box{
+.Box{
     background-color:grey;
     border: solid 3px Red;
     width: 70%;
@@ -6,17 +6,17 @@
     display: flex;
 }
 
-.box_margin{
+.Box_Margin{
     margin-left: 25%;
     margin-top: 2%;
     
 }
-.input_margin{
+.Input_Margin{
     margin-top: 6%;
     margin-left: 20px;
 
 }
-.input_style {
+.Input_Style {
     all: unset;
     font: 16px system-ui;
     color:black;
@@ -29,37 +29,37 @@
     width: 600px;
     height: 25px;
     
-  }
-.header_style{
+}
+.Header_Style{
     margin-top: 15px;
     margin-left: 20px;
     font-weight: bold;
     font-size: large;
     color: white;
 }
-.information_style{
+.Information_Style{
     font-weight: 600;
     color : white
     
 }
-.button_margin{
+.Button_Margin{
     display: flex;
     margin-left: 35%;
     margin-top: 44%;
 }
-.button_size{
+.Button_Size{
     margin-left: 20px;
     width: 90px;
     height: 50px;
 }
-.box_category{
+.Box_Category{
     background-color:grey;
     border: solid 3px Red;
     width: 70%;
     height: 350px;
     display: flex;
 }
-.button_marginCategory{
+.Button_MarginCategory{
     display: flex;
     margin-left: 170%;
     margin-top: 22%;

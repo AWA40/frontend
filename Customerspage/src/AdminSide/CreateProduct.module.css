@@ -1,4 +1,4 @@
-.box{
+.Box{
     background-color:grey;
     border: solid 3px Red;
     width: 70%;
@@ -6,17 +6,17 @@
     display: flex;
 }
 
-.box_margin{
+.Box_Margin{
     margin-left: 25%;
     margin-top: 2%;
     
 }
-.input_margin{
+.Input_Margin{
     margin-top: 6%;
     margin-left: 20px;
 
 }
-.input_style {
+.Input_Style {
     all: unset;
     font: 16px system-ui;
     color:black;
@@ -29,55 +29,26 @@
     width: 600px;
     height: 25px;
     
-  }
-.header_style{
+}
+.Header_Style{
     margin-top: 15px;
     margin-left: 20px;
     font-weight: bold;
     font-size: large;
     color: white;
 }
-.information_style{
+.Information_Style{
     font-weight: 600;
     color : white
     
 }
-.button_margin{
+.Button_Margin{
     display: flex;
     margin-left: 35%;
     margin-top: 44%;
 }
-.button_size{
+.Button_Size{
     margin-left: 20px;
     width: 90px;
     height: 50px;
-}
-.box_category{
-    background-color:grey;
-    border: solid 3px Red;
-    width: 70%;
-    height: 350px;
-    display: flex;
-}
-.button_marginCategory{
-    display: flex;
-    margin-left: 170%;
-    margin-top: 22%;
-}
-button {
-    display: inline-block;
-    border: none;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: #810000;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }

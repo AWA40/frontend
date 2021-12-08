@@ -6,7 +6,8 @@
             "TotalPrice":"13€",
             "Address":"Random address",
             "CustomerName":"Customer 1",
-            "ZipCode":"xxxxx"
+            "ZipCode":"xxxxx",
+            "Time":"7:45pm"
         },
         {
             "OrderNumber":"2",
@@ -14,7 +15,8 @@
             "TotalPrice":"30€",
             "Address":"Random adders",
             "CustomerName":"Customer 2",
-            "ZipCode":"xxxxx"
+            "ZipCode":"xxxxx",
+            "Time":"1:12am"
         }
     ]
 }

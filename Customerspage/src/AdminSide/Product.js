@@ -3,13 +3,9 @@ import style from './Product.module.css'
 
 export default function Product(props) {
     return (
-        <div className={style.product_margin}>
-            <div>
-                {props.Item}
-            </div>
-            <div>
-                {props.Price}
-            </div>
+        <div className={style.Product_Margin}>
+            <div>{props.Item}</div>
+            <div>{props.Price}</div>
         </div>
     )
 }

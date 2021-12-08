@@ -8,11 +8,8 @@ export default function OrderHistory(props) {
             <div className={style.Box_Margin}>
                 <div className={style.Box}>
                     <div className={style.Box_Content}>
-                            <div>
-                                <span className={style.Text_Style1}>Order Number {props.OrderNumber}</span>
-                            </div>
-                                <div className={style.Box_Flex}>
-                                    <div>
+                            <div> <span className={style.Text_Style1}>Order Number {props.OrderNumber}</span> </div>
+                                <div className={style.Box_Flex}><div>
                                         <div className={style.Text_Style2}>Restaurant name:</div>
                                         <div>
                                             <div className={style.Info_Text}>Customer Info</div>
@@ -27,16 +24,13 @@ export default function OrderHistory(props) {
                                     </div>
                                     <div className={style.Status_Margin}>
                                     <div>
-                                        Status
+                                        Order status: {props.Status}
                                         </div>
-                                        <div className={style.Text_Style4}>Receive time</div>
+                                        <div className={style.Text_Style4}>Receive time: {props.Time} </div>
                                         <div className={style.Text_Style5}>Total Price: {props.TotalPrice}</div>
                                     </div>
                                     </div>
-                                </div>
-                                
-                            
-                            
+                                </div>       
                     </div>
                 </div>
             </div>
