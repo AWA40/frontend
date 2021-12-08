@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import JSONDATA from './MOCK_DATA.json'
 import input from './Search.module.css'
 import Page from './Search.module.css'
@@ -30,4 +30,4 @@ export default function App() {
             })}
         </div>
     )
-}
+}*/

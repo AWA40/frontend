@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { InputAdornment, TextField } from '@mui/material';
-import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
+import {  createTheme, makeStyles } from '@material-ui/core/styles';
+import fetchRestaurants from './handleSearch'
 
 
 export default function Search1(props) {
@@ -9,10 +10,10 @@ export default function Search1(props) {
     const handleSearch = (e) => {
         e.preventDefault();
         const queryVal = query.current.value
-        props.fetchRestaurants(queryVal.trim())
+        fetchRestaurants(queryVal.trim())
     }
 
-    const theme = createMuiTheme()
+    const theme = createTheme()
     const useStyles = makeStyles(theme)
 
     return (

@@ -1,16 +1,14 @@
 import React from "react"
 
-export default class RestaurantContainer extends Component {
+export default class restaurantContainer extends React.Component {
     state = {
         restaurants: [],
         startIndex: 0,
         progress: 0,
-        startIndex: 0
     }
 
-    fetchRestaurants = (getRestaurant) => {
-
-        fetch('xxxxx.com/getRestaurant')
+    componentDidMount() {
+        fetch('https://xxxx.com/getRestaurants')
         .then((res) => res.json())
         .then((data) => {
             this.setState({
